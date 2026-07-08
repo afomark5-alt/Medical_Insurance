@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 #Load Model
-model = joblib.load('models/model.pkl')
+model = joblib.load('Models/model.pkl')
 
 st.title('🏥Medical Insurance Prediction')
 st.markdown("""
